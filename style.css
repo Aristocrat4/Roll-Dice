@@ -10,6 +10,9 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+.hidden {
+    display: none;
+}
 .flex {
     margin-top: 100px;
     display: flex;
@@ -137,4 +140,16 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     bottom: 80px;
+}
+.dice-img, .dice-img-2, .dice-img-3, .dice-img-4, .dice-img-5, .dice-img-6 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 10;
+    top: 130px;
+}
+.dice-img img, .dice-img-2 img, .dice-img-3 img, .dice-img-4 img, .dice-img-5 img, .dice-img-6 img {
+    width: 80px;
+    border-radius: 5px;
 }
