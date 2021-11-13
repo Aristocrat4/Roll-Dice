@@ -72,7 +72,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
-.score {
+.current--0 {
     font-size: 30px;
     font-weight: bold;
 }
@@ -104,7 +104,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
 }
-.right-score {
+.current--1 {
     font-size: 30px;
     font-weight: bold;
 }
