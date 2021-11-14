@@ -161,7 +161,7 @@ background-color: aqua; !important
     width: 80px;
     border-radius: 5px;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .new-game {
         padding: 5px 15px;
         font-size: 13px;
