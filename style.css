@@ -123,6 +123,7 @@ background-color: aqua; !important
     top: 20px;
     cursor: pointer;
 }
+
 .roll-dice{
     position: absolute;
     background-color: white;
@@ -135,6 +136,7 @@ background-color: aqua; !important
     bottom: 170px;
     cursor: pointer;
 }
+
 .hold{
     position: absolute;
     background-color: white;
@@ -158,4 +160,63 @@ background-color: aqua; !important
 .dice-img img, .dice-img-2 img, .dice-img-3 img, .dice-img-4 img, .dice-img-5 img, .dice-img-6 img {
     width: 80px;
     border-radius: 5px;
+}
+@media screen and (max-width: 650px) {
+    .new-game {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+    .roll-dice {
+        padding: 5px 15px;
+        font-size: 13px; 
+        bottom: 200px; 
+    }
+    .hold {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+    .player--1 {
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+    .player--0 {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .right-score-div {
+        padding: 10px 30px;
+        margin-bottom: 65px;
+    }
+    .score-div {
+        padding: 10px 30px;
+    }
+    .score-div-text { 
+        margin-bottom: 10px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .right-score-div-text {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .current--0 {
+        font-size: 20px;
+    }
+    .current--1 {
+        font-size: 20px;
+    }
+    .right-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .left-title {
+        font-size: 20px;
+    }
+    .total-score--0 {
+        font-size: 30px;
+    }
+    .total-score--1 {
+        font-size: 30px;
+    }
 }
